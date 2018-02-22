@@ -1,4 +1,4 @@
-Gitlab URL
+GitHub URL
 ---
 https://github.com/Nanxia/3DScenesDemo.git
 
