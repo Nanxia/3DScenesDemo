@@ -1,6 +1,6 @@
 Gitlab URL
 ---
-ssh://git@gitlab.adnonstop.com:2022/liaozq1/3DScenesDemo.git
+https://github.com/Nanxia/3DScenesDemo.git
 
 
 File formats supported by AssimpKit
