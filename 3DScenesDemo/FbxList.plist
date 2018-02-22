@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fbx0</key>
+	<string>Cinema4D.fbx</string>
+	<key>fbx1</key>
+	<string>COLLADA.fbx</string>
+	<key>fbx2</key>
+	<string>ConcavePolygon.fbx</string>
+	<key>fbx3</key>
+	<string>cube_with_2UVs.fbx</string>
+	<key>fbx4</key>
+	<string>duck.fbx</string>
+	<key>fbx5</key>
+	<string>Granate.fbx</string>
+	<key>fbx6</key>
+	<string>jeep1.fbx</string>
+	<key>fbx7</key>
+	<string>kwxport_test_vcolors.fbx</string>
+	<key>fbx8</key>
+	<string>mar_rifle.fbx</string>
+	<key>fbx9</key>
+	<string>mp5_sil.fbx</string>
+	<key>fbx10</key>
+	<string>pyramob.fbx</string>
+	<key>fbx11</key>
+	<string>1.fbx</string>
+</dict>
+</plist>
