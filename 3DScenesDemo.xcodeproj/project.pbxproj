@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABBC197203EAFEA00DF1CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CABBC196203EAFEA00DF1CCB /* AppDelegate.m */; };
+		CABBC199203EAFEA00DF1CCB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CABBC198203EAFEA00DF1CCB /* art.scnassets */; };
+		CABBC19C203EAFEA00DF1CCB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABBC19B203EAFEA00DF1CCB /* GameViewController.m */; };
+		CABBC19F203EAFEA00DF1CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABBC19D203EAFEA00DF1CCB /* Main.storyboard */; };
+		CABBC1A1203EAFEA00DF1CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1A0203EAFEA00DF1CCB /* Assets.xcassets */; };
+		CABBC1A4203EAFEA00DF1CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1A2203EAFEA00DF1CCB /* LaunchScreen.storyboard */; };
+		CABBC1A7203EAFEA00DF1CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABBC1A6203EAFEA00DF1CCB /* main.m */; };
+		CABBC1B1203EAFEA00DF1CCB /* _DScenesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABBC1B0203EAFEA00DF1CCB /* _DScenesDemoTests.m */; };
+		CABBC1BC203EAFEA00DF1CCB /* _DScenesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CABBC1BB203EAFEA00DF1CCB /* _DScenesDemoUITests.m */; };
+		CABBC1D6203EB08C00DF1CCB /* 1.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1CA203EB08C00DF1CCB /* 1.fbx */; };
+		CABBC1D7203EB08C00DF1CCB /* Cinema4D.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1CB203EB08C00DF1CCB /* Cinema4D.fbx */; };
+		CABBC1D8203EB08C00DF1CCB /* COLLADA.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1CC203EB08C00DF1CCB /* COLLADA.fbx */; };
+		CABBC1D9203EB08C00DF1CCB /* ConcavePolygon.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1CD203EB08C00DF1CCB /* ConcavePolygon.fbx */; };
+		CABBC1DA203EB08C00DF1CCB /* cube_with_2UVs.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1CE203EB08C00DF1CCB /* cube_with_2UVs.fbx */; };
+		CABBC1DB203EB08C00DF1CCB /* duck.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1CF203EB08C00DF1CCB /* duck.fbx */; };
+		CABBC1DC203EB08C00DF1CCB /* Granate.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1D0203EB08C00DF1CCB /* Granate.fbx */; };
+		CABBC1DD203EB08C00DF1CCB /* jeep1.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1D1203EB08C00DF1CCB /* jeep1.fbx */; };
+		CABBC1DE203EB08C00DF1CCB /* kwxport_test_vcolors.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1D2203EB08C00DF1CCB /* kwxport_test_vcolors.fbx */; };
+		CABBC1DF203EB08C00DF1CCB /* mar_rifle.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1D3203EB08C00DF1CCB /* mar_rifle.fbx */; };
+		CABBC1E0203EB08C00DF1CCB /* mp5_sil.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1D4203EB08C00DF1CCB /* mp5_sil.fbx */; };
+		CABBC1E1203EB08C00DF1CCB /* pyramob.fbx in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1D5203EB08C00DF1CCB /* pyramob.fbx */; };
+		CABBC1E3203EB0BC00DF1CCB /* FbxList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1E2203EB0BC00DF1CCB /* FbxList.plist */; };
+		CABBC1E6203EB0CD00DF1CCB /* AnimationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABBC1E4203EB0CD00DF1CCB /* AnimationsTableViewController.m */; };
+		CABBC1E8203EB0FE00DF1CCB /* AssimpKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABBC1E7203EB0FE00DF1CCB /* AssimpKit.framework */; };
+		CABBC1E9203EB0FE00DF1CCB /* AssimpKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CABBC1E7203EB0FE00DF1CCB /* AssimpKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CABBC1EC203EB1AF00DF1CCB /* navbar-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CABBC1EB203EB1AF00DF1CCB /* navbar-bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABBC1AD203EAFEA00DF1CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABBC18A203EAFEA00DF1CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABBC191203EAFEA00DF1CCB;
+			remoteInfo = 3DScenesDemo;
+		};
+		CABBC1B8203EAFEA00DF1CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABBC18A203EAFEA00DF1CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABBC191203EAFEA00DF1CCB;
+			remoteInfo = 3DScenesDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CABBC1EA203EB0FE00DF1CCB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CABBC1E9203EB0FE00DF1CCB /* AssimpKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CABBC192203EAFEA00DF1CCB /* 3DScenesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DScenesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABBC195203EAFEA00DF1CCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CABBC196203EAFEA00DF1CCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CABBC198203EAFEA00DF1CCB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CABBC19A203EAFEA00DF1CCB /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CABBC19B203EAFEA00DF1CCB /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CABBC19E203EAFEA00DF1CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CABBC1A0203EAFEA00DF1CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABBC1A3203EAFEA00DF1CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABBC1A5203EAFEA00DF1CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABBC1A6203EAFEA00DF1CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CABBC1AC203EAFEA00DF1CCB /* 3DScenesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DScenesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABBC1B0203EAFEA00DF1CCB /* _DScenesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DScenesDemoTests.m; sourceTree = "<group>"; };
+		CABBC1B2203EAFEA00DF1CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABBC1B7203EAFEA00DF1CCB /* 3DScenesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DScenesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABBC1BB203EAFEA00DF1CCB /* _DScenesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DScenesDemoUITests.m; sourceTree = "<group>"; };
+		CABBC1BD203EAFEA00DF1CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABBC1CA203EB08C00DF1CCB /* 1.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.fbx; sourceTree = "<group>"; };
+		CABBC1CB203EB08C00DF1CCB /* Cinema4D.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cinema4D.fbx; sourceTree = "<group>"; };
+		CABBC1CC203EB08C00DF1CCB /* COLLADA.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = COLLADA.fbx; sourceTree = "<group>"; };
+		CABBC1CD203EB08C00DF1CCB /* ConcavePolygon.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = ConcavePolygon.fbx; sourceTree = "<group>"; };
+		CABBC1CE203EB08C00DF1CCB /* cube_with_2UVs.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = cube_with_2UVs.fbx; sourceTree = "<group>"; };
+		CABBC1CF203EB08C00DF1CCB /* duck.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = duck.fbx; sourceTree = "<group>"; };
+		CABBC1D0203EB08C00DF1CCB /* Granate.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Granate.fbx; sourceTree = "<group>"; };
+		CABBC1D1203EB08C00DF1CCB /* jeep1.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = jeep1.fbx; sourceTree = "<group>"; };
+		CABBC1D2203EB08C00DF1CCB /* kwxport_test_vcolors.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = kwxport_test_vcolors.fbx; sourceTree = "<group>"; };
+		CABBC1D3203EB08C00DF1CCB /* mar_rifle.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = mar_rifle.fbx; sourceTree = "<group>"; };
+		CABBC1D4203EB08C00DF1CCB /* mp5_sil.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = mp5_sil.fbx; sourceTree = "<group>"; };
+		CABBC1D5203EB08C00DF1CCB /* pyramob.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = pyramob.fbx; sourceTree = "<group>"; };
+		CABBC1E2203EB0BC00DF1CCB /* FbxList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FbxList.plist; sourceTree = "<group>"; };
+		CABBC1E4203EB0CD00DF1CCB /* AnimationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationsTableViewController.m; sourceTree = "<group>"; };
+		CABBC1E5203EB0CD00DF1CCB /* AnimationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationsTableViewController.h; sourceTree = "<group>"; };
+		CABBC1E7203EB0FE00DF1CCB /* AssimpKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssimpKit.framework; path = 3DScenesDemo/AssimpKit.framework; sourceTree = "<group>"; };
+		CABBC1EB203EB1AF00DF1CCB /* navbar-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navbar-bg.png"; path = "3DScenesDemo/navbar-bg.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABBC18F203EAFEA00DF1CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABBC1E8203EB0FE00DF1CCB /* AssimpKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABBC1A9203EAFEA00DF1CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABBC1B4203EAFEA00DF1CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABBC189203EAFEA00DF1CCB = {
+			isa = PBXGroup;
+			children = (
+				CABBC1EB203EB1AF00DF1CCB /* navbar-bg.png */,
+				CABBC1E7203EB0FE00DF1CCB /* AssimpKit.framework */,
+				CABBC194203EAFEA00DF1CCB /* 3DScenesDemo */,
+				CABBC1AF203EAFEA00DF1CCB /* 3DScenesDemoTests */,
+				CABBC1BA203EAFEA00DF1CCB /* 3DScenesDemoUITests */,
+				CABBC193203EAFEA00DF1CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABBC193203EAFEA00DF1CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABBC192203EAFEA00DF1CCB /* 3DScenesDemo.app */,
+				CABBC1AC203EAFEA00DF1CCB /* 3DScenesDemoTests.xctest */,
+				CABBC1B7203EAFEA00DF1CCB /* 3DScenesDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABBC194203EAFEA00DF1CCB /* 3DScenesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CABBC1C9203EB08C00DF1CCB /* scene */,
+				CABBC195203EAFEA00DF1CCB /* AppDelegate.h */,
+				CABBC196203EAFEA00DF1CCB /* AppDelegate.m */,
+				CABBC1E5203EB0CD00DF1CCB /* AnimationsTableViewController.h */,
+				CABBC1E4203EB0CD00DF1CCB /* AnimationsTableViewController.m */,
+				CABBC19A203EAFEA00DF1CCB /* GameViewController.h */,
+				CABBC19B203EAFEA00DF1CCB /* GameViewController.m */,
+				CABBC19D203EAFEA00DF1CCB /* Main.storyboard */,
+				CABBC1A2203EAFEA00DF1CCB /* LaunchScreen.storyboard */,
+				CABBC198203EAFEA00DF1CCB /* art.scnassets */,
+				CABBC1A0203EAFEA00DF1CCB /* Assets.xcassets */,
+				CABBC1A5203EAFEA00DF1CCB /* Info.plist */,
+				CABBC1E2203EB0BC00DF1CCB /* FbxList.plist */,
+				CABBC1A6203EAFEA00DF1CCB /* main.m */,
+			);
+			path = 3DScenesDemo;
+			sourceTree = "<group>";
+		};
+		CABBC1AF203EAFEA00DF1CCB /* 3DScenesDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABBC1B0203EAFEA00DF1CCB /* _DScenesDemoTests.m */,
+				CABBC1B2203EAFEA00DF1CCB /* Info.plist */,
+			);
+			path = 3DScenesDemoTests;
+			sourceTree = "<group>";
+		};
+		CABBC1BA203EAFEA00DF1CCB /* 3DScenesDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABBC1BB203EAFEA00DF1CCB /* _DScenesDemoUITests.m */,
+				CABBC1BD203EAFEA00DF1CCB /* Info.plist */,
+			);
+			path = 3DScenesDemoUITests;
+			sourceTree = "<group>";
+		};
+		CABBC1C9203EB08C00DF1CCB /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				CABBC1CA203EB08C00DF1CCB /* 1.fbx */,
+				CABBC1CB203EB08C00DF1CCB /* Cinema4D.fbx */,
+				CABBC1CC203EB08C00DF1CCB /* COLLADA.fbx */,
+				CABBC1CD203EB08C00DF1CCB /* ConcavePolygon.fbx */,
+				CABBC1CE203EB08C00DF1CCB /* cube_with_2UVs.fbx */,
+				CABBC1CF203EB08C00DF1CCB /* duck.fbx */,
+				CABBC1D0203EB08C00DF1CCB /* Granate.fbx */,
+				CABBC1D1203EB08C00DF1CCB /* jeep1.fbx */,
+				CABBC1D2203EB08C00DF1CCB /* kwxport_test_vcolors.fbx */,
+				CABBC1D3203EB08C00DF1CCB /* mar_rifle.fbx */,
+				CABBC1D4203EB08C00DF1CCB /* mp5_sil.fbx */,
+				CABBC1D5203EB08C00DF1CCB /* pyramob.fbx */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABBC191203EAFEA00DF1CCB /* 3DScenesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABBC1C0203EAFEA00DF1CCB /* Build configuration list for PBXNativeTarget "3DScenesDemo" */;
+			buildPhases = (
+				CABBC18E203EAFEA00DF1CCB /* Sources */,
+				CABBC18F203EAFEA00DF1CCB /* Frameworks */,
+				CABBC190203EAFEA00DF1CCB /* Resources */,
+				CABBC1EA203EB0FE00DF1CCB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DScenesDemo;
+			productName = 3DScenesDemo;
+			productReference = CABBC192203EAFEA00DF1CCB /* 3DScenesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABBC1AB203EAFEA00DF1CCB /* 3DScenesDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABBC1C3203EAFEA00DF1CCB /* Build configuration list for PBXNativeTarget "3DScenesDemoTests" */;
+			buildPhases = (
+				CABBC1A8203EAFEA00DF1CCB /* Sources */,
+				CABBC1A9203EAFEA00DF1CCB /* Frameworks */,
+				CABBC1AA203EAFEA00DF1CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABBC1AE203EAFEA00DF1CCB /* PBXTargetDependency */,
+			);
+			name = 3DScenesDemoTests;
+			productName = 3DScenesDemoTests;
+			productReference = CABBC1AC203EAFEA00DF1CCB /* 3DScenesDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABBC1B6203EAFEA00DF1CCB /* 3DScenesDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABBC1C6203EAFEA00DF1CCB /* Build configuration list for PBXNativeTarget "3DScenesDemoUITests" */;
+			buildPhases = (
+				CABBC1B3203EAFEA00DF1CCB /* Sources */,
+				CABBC1B4203EAFEA00DF1CCB /* Frameworks */,
+				CABBC1B5203EAFEA00DF1CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABBC1B9203EAFEA00DF1CCB /* PBXTargetDependency */,
+			);
+			name = 3DScenesDemoUITests;
+			productName = 3DScenesDemoUITests;
+			productReference = CABBC1B7203EAFEA00DF1CCB /* 3DScenesDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABBC18A203EAFEA00DF1CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					CABBC191203EAFEA00DF1CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CABBC1AB203EAFEA00DF1CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABBC191203EAFEA00DF1CCB;
+					};
+					CABBC1B6203EAFEA00DF1CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CABBC191203EAFEA00DF1CCB;
+					};
+				};
+			};
+			buildConfigurationList = CABBC18D203EAFEA00DF1CCB /* Build configuration list for PBXProject "3DScenesDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABBC189203EAFEA00DF1CCB;
+			productRefGroup = CABBC193203EAFEA00DF1CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABBC191203EAFEA00DF1CCB /* 3DScenesDemo */,
+				CABBC1AB203EAFEA00DF1CCB /* 3DScenesDemoTests */,
+				CABBC1B6203EAFEA00DF1CCB /* 3DScenesDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABBC190203EAFEA00DF1CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABBC1EC203EB1AF00DF1CCB /* navbar-bg.png in Resources */,
+				CABBC1DD203EB08C00DF1CCB /* jeep1.fbx in Resources */,
+				CABBC199203EAFEA00DF1CCB /* art.scnassets in Resources */,
+				CABBC1E0203EB08C00DF1CCB /* mp5_sil.fbx in Resources */,
+				CABBC1E1203EB08C00DF1CCB /* pyramob.fbx in Resources */,
+				CABBC1A4203EAFEA00DF1CCB /* LaunchScreen.storyboard in Resources */,
+				CABBC1A1203EAFEA00DF1CCB /* Assets.xcassets in Resources */,
+				CABBC1D8203EB08C00DF1CCB /* COLLADA.fbx in Resources */,
+				CABBC1D7203EB08C00DF1CCB /* Cinema4D.fbx in Resources */,
+				CABBC1DF203EB08C00DF1CCB /* mar_rifle.fbx in Resources */,
+				CABBC1DE203EB08C00DF1CCB /* kwxport_test_vcolors.fbx in Resources */,
+				CABBC1DC203EB08C00DF1CCB /* Granate.fbx in Resources */,
+				CABBC1E3203EB0BC00DF1CCB /* FbxList.plist in Resources */,
+				CABBC1DA203EB08C00DF1CCB /* cube_with_2UVs.fbx in Resources */,
+				CABBC1D6203EB08C00DF1CCB /* 1.fbx in Resources */,
+				CABBC1DB203EB08C00DF1CCB /* duck.fbx in Resources */,
+				CABBC19F203EAFEA00DF1CCB /* Main.storyboard in Resources */,
+				CABBC1D9203EB08C00DF1CCB /* ConcavePolygon.fbx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABBC1AA203EAFEA00DF1CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABBC1B5203EAFEA00DF1CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABBC18E203EAFEA00DF1CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABBC1E6203EB0CD00DF1CCB /* AnimationsTableViewController.m in Sources */,
+				CABBC19C203EAFEA00DF1CCB /* GameViewController.m in Sources */,
+				CABBC1A7203EAFEA00DF1CCB /* main.m in Sources */,
+				CABBC197203EAFEA00DF1CCB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABBC1A8203EAFEA00DF1CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABBC1B1203EAFEA00DF1CCB /* _DScenesDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABBC1B3203EAFEA00DF1CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABBC1BC203EAFEA00DF1CCB /* _DScenesDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABBC1AE203EAFEA00DF1CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABBC191203EAFEA00DF1CCB /* 3DScenesDemo */;
+			targetProxy = CABBC1AD203EAFEA00DF1CCB /* PBXContainerItemProxy */;
+		};
+		CABBC1B9203EAFEA00DF1CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABBC191203EAFEA00DF1CCB /* 3DScenesDemo */;
+			targetProxy = CABBC1B8203EAFEA00DF1CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABBC19D203EAFEA00DF1CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABBC19E203EAFEA00DF1CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CABBC1A2203EAFEA00DF1CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABBC1A3203EAFEA00DF1CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABBC1BE203EAFEA00DF1CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CABBC1BF203EAFEA00DF1CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABBC1C1203EAFEA00DF1CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3DScenesDemo",
+				);
+				INFOPLIST_FILE = 3DScenesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMG.-DScenesDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CABBC1C2203EAFEA00DF1CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3DScenesDemo",
+				);
+				INFOPLIST_FILE = 3DScenesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMG.-DScenesDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CABBC1C4203EAFEA00DF1CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3DScenesDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMG.-DScenesDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DScenesDemo.app/3DScenesDemo";
+			};
+			name = Debug;
+		};
+		CABBC1C5203EAFEA00DF1CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3DScenesDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMG.-DScenesDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DScenesDemo.app/3DScenesDemo";
+			};
+			name = Release;
+		};
+		CABBC1C7203EAFEA00DF1CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3DScenesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMG.-DScenesDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DScenesDemo;
+			};
+			name = Debug;
+		};
+		CABBC1C8203EAFEA00DF1CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 3DScenesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TMG.-DScenesDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DScenesDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABBC18D203EAFEA00DF1CCB /* Build configuration list for PBXProject "3DScenesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABBC1BE203EAFEA00DF1CCB /* Debug */,
+				CABBC1BF203EAFEA00DF1CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABBC1C0203EAFEA00DF1CCB /* Build configuration list for PBXNativeTarget "3DScenesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABBC1C1203EAFEA00DF1CCB /* Debug */,
+				CABBC1C2203EAFEA00DF1CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABBC1C3203EAFEA00DF1CCB /* Build configuration list for PBXNativeTarget "3DScenesDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABBC1C4203EAFEA00DF1CCB /* Debug */,
+				CABBC1C5203EAFEA00DF1CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABBC1C6203EAFEA00DF1CCB /* Build configuration list for PBXNativeTarget "3DScenesDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABBC1C7203EAFEA00DF1CCB /* Debug */,
+				CABBC1C8203EAFEA00DF1CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CABBC18A203EAFEA00DF1CCB /* Project object */;
+}
